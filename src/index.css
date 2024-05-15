@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    html {
+        @apply scroll-smooth
+    }
+    ul {
+        @apply list-none
+    }
+    button {
+        @apply cursor-pointer border-none outline-none inline-block bg-titleColor text-containerColor py-5 px-8 rounded-2xl font-medium hover:bg-titleDarkColor
+    }
+    img {
+        @apply max-w-full h-auto;
+    }
+}
