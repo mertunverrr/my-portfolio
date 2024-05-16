@@ -22,6 +22,14 @@ function Header() {
             </li>
             <li>
               <a
+                href="#qualification"
+                className="font-medium hover:text-titleDarkColor"
+              >
+                Qualification
+              </a>
+            </li>
+            <li>
+              <a
                 href="#skills"
                 className="font-medium hover:text-titleDarkColor"
               >

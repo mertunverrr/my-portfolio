@@ -27,7 +27,12 @@ export default {
       },
       spacing: {
         '120' : '30rem',
-        '92' : '23rem'
+        '92' : '23rem',
+        '0.25' : '1px',
+        '1.25' : '5px'
+      },
+      rotate : {
+        '30' : '30deg'
       },
       animation: {
         'profileAnim' : 'profileAnimate 6s ease-in-out infinite',

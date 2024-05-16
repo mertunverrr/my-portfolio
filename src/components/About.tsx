@@ -1,8 +1,18 @@
 import ProfilePhoto from "../assets/about.jpg";
 
 function About() {
+  const handleDownloadCV = (
+    e: React.MouseEvent<HTMLButtonElement, MouseEvent>
+  ) => {
+    e.preventDefault();
+    window.open("../../public/MertUnverCV.pdf", "_blank");
+  };
+
   return (
-    <section className="container flex flex-col h-screen justify-center items-center">
+    <section
+      id="about"
+      className="container flex flex-col h-screen justify-center items-center"
+    >
       <div className="flex flex-col">
         <h1 className="text-titleColor text-4xl font-semibold text-center">
           About Me
@@ -24,7 +34,8 @@ function About() {
             looking forward to working in a company where I can continuously
             learn new things and contribute effectively.
           </p>
-          <button className="w-52">
+
+          <button className="w-52" onClick={(e) => handleDownloadCV(e)}>
             Download CV <i className="uil uil-file-alt ml-1"></i>
           </button>
         </div>

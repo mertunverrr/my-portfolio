@@ -4,12 +4,22 @@ import Scrool from "../assets/scroll.svg";
 
 function Home() {
   return (
-    <section className="container flex flex-col h-screen">
+    <section id="home" className="container flex flex-col h-screen">
       <div className="flex items-center justify-around space-x-32 h-screen">
         <div className="text-titleColor text-2xl flex flex-col space-y-6">
-          <i className="uil uil-instagram cursor-pointer hover:text-titleDarkColor"></i>
-          <i className="uil uil-github-alt cursor-pointer hover:text-titleDarkColor"></i>
-          <i className="uil uil-linkedin cursor-pointer hover:text-titleDarkColor"></i>
+          <a href="https://www.instagram.com/mertunvrrr/" target="_blank">
+            <i className="uil uil-instagram cursor-pointer hover:text-titleDarkColor"></i>
+          </a>
+
+          <a href="https://github.com/mertunverrr" target="_blank">
+            <i className="uil uil-github-alt cursor-pointer hover:text-titleDarkColor"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/mert-%C3%BCnver-a89807305/"
+            target="_blank"
+          >
+            <i className="uil uil-linkedin cursor-pointer hover:text-titleDarkColor"></i>
+          </a>
         </div>
         <div className="flex flex-col">
           <h1 className="text-titleColor text-6xl font-semibold flex">
@@ -25,7 +35,10 @@ function Home() {
             I'm frontend developer based in Ankara, and i am very passionate and
             dedicated to my work.
           </p>
-          <button className="w-44 mt-12">
+          <button
+            className="w-44 mt-12"
+            onClick={() => (window.location.href = "#contact")}
+          >
             Say Hello
             <i className="uil uil-message ml-3"></i>
           </button>
