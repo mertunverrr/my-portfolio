@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header className="w-full top-0 left-0 fixed z-50 bg-containerColor pt-6 pb-4 text-titleColor">
+    <header className="w-full top-0 left-0 fixed z-50 bg-containerColor pt-6 pb-4 text-titleColor drop-shadow-sm">
       <nav className="container flex justify-between items-center">
         <a href="index.html" className="font-semibold tracking-wider text-lg">
           Mert

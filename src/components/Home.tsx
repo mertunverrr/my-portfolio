@@ -33,11 +33,11 @@ function Home() {
         <div>
           <img
             src={Photo}
-            className="w-120 border-8 border-textColor animate-profileAnim"
+            className="w-120 border-8 border-textColor border-solid animate-profileAnim"
           />
         </div>
       </div>
-      <div className="animate-bounceMouse -mt-32 ml-32 flex">
+      <div className="animate-bounceMouse -mt-32 ml-32 flex cursor-default">
         <img src={Scrool} className="w-8 " />
         <span className="text-sm items-center flex ml-2 font-medium text-titleColor">
           Scroll down <i className="uil uil-arrow-down text-xl ml-0.5"></i>

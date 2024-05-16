@@ -26,7 +26,8 @@ export default {
         containerColor: "#fff"
       },
       spacing: {
-        '120' : '30rem'
+        '120' : '30rem',
+        '92' : '23rem'
       },
       animation: {
         'profileAnim' : 'profileAnimate 6s ease-in-out infinite',
@@ -46,7 +47,10 @@ export default {
               transform: 'none'
           }
       }
-      }
+      },
+      listStyleImage: {
+        checkmark: 'url("../assets/check.svg")',
+      },
     },
   },
   plugins: [],
