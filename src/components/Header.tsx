@@ -1,12 +1,12 @@
 function Header() {
   return (
-    <header className="w-full top-0 left-0 fixed z-50 bg-containerColor pt-6 pb-4 text-titleColor drop-shadow-sm">
+    <header className="w-full top-0 left-0 hidden md:flex md:fixed z-50 bg-containerColor px-4 lg:px-0  pt-6 pb-4 text-titleColor drop-shadow-sm">
       <nav className="container flex justify-between items-center">
         <a href="index.html" className="font-semibold tracking-wider text-lg">
           Mert
         </a>
         <div>
-          <ul className="flex space-x-10 text-sm">
+          <ul className="flex md:space-x-6 lg:space-x-10 text-sm">
             <li>
               <a href="#home" className="font-medium hover:text-titleDarkColor">
                 Home

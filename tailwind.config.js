@@ -8,9 +8,9 @@ export default {
     container : {
       center:true,
       screens: {
-        lg: '968px',
-        xl: '968px',
-        '2xl': '968px',
+        lg: '940px',
+        xl: '940px',
+        '2xl': '940px',
       }
     },
 
@@ -29,7 +29,10 @@ export default {
         '120' : '30rem',
         '92' : '23rem',
         '0.25' : '1px',
-        '1.25' : '5px'
+        '1.25' : '5px',
+        '38' : '9.5rem',
+        '18' : '4.5rem',
+        '23' : '5.75rem',
       },
       rotate : {
         '30' : '30deg'

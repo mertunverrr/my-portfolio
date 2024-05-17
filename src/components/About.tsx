@@ -11,19 +11,22 @@ function About() {
   return (
     <section
       id="about"
-      className="container flex flex-col h-screen justify-center items-center"
+      className="container flex flex-col px-4 lg:px-0 pt-20 pb-10 md:py-24 justify-center items-center"
     >
       <div className="flex flex-col">
-        <h1 className="text-titleColor text-4xl font-semibold text-center">
+        <h1 className="text-titleColor text-3xl md:text-4xl font-semibold text-center">
           About Me
         </h1>
-        <h4 className="text-textColor text-center mt-2 font-medium">
+        <h4 className="text-textColor text-center md:mt-2 font-medium">
           My introduction
         </h4>
       </div>
-      <div className="flex justify-between mt-14 space-x-28">
-        <img src={ProfilePhoto} className="w-92 rounded-3xl" />
-        <div className="flex flex-col justify-around">
+      <div className="flex flex-col md:flex-row items-center md:justify-between mt-0 md:mt-14 md:space-x-8 lg:space-x-20">
+        <img
+          src={ProfilePhoto}
+          className="hidden md:flex md:h-96 rounded-3xl"
+        />
+        <div className="flex flex-col md:space-y-8 text-sm lg:text-base mt-8 md:mt-0">
           <p>
             I was born on September 5, 2001. I completed my high school
             education at TOKİ Anatolian High School in Ankara. Following my high
@@ -35,7 +38,10 @@ function About() {
             learn new things and contribute effectively.
           </p>
 
-          <button className="w-52" onClick={(e) => handleDownloadCV(e)}>
+          <button
+            className="mt-6 md:mt-0 md:w-52 py-4 md-py-5"
+            onClick={(e) => handleDownloadCV(e)}
+          >
             Download CV <i className="uil uil-file-alt ml-1"></i>
           </button>
         </div>
