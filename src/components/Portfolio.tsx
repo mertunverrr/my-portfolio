@@ -26,7 +26,7 @@ function Portfolio() {
             <div className="absolute bottom-20 w-full">
               <div className="hidden lg:flex flex-col text-containerColor text-xl font-medium text-center  opacity-0 group-hover:opacity-100 z-20 space-y-4">
                 <a
-                  href="https://resumart.netlify.app/"
+                  href="https://resumart-kappa.vercel.app/"
                   target="_blank"
                   className="underline tracking-wide underline-offset-4"
                 >
@@ -53,7 +53,7 @@ function Portfolio() {
             </p>
             <div className="flex flex-row justify-between lg:hidden text-textColor text-base md:text-lg font-semibold px-8 py-2 ">
               <a
-                href="https://resumart.netlify.app/"
+                href="https://resumart-kappa.vercel.app/"
                 target="_blank"
                 className="underline tracking-wide underline-offset-4"
               >
@@ -79,7 +79,7 @@ function Portfolio() {
             <div className="absolute bottom-20 w-full">
               <div className="hidden md:flex flex-col text-containerColor text-xl font-medium text-center  opacity-0 md:group-hover:opacity-100 z-20 space-y-4">
                 <a
-                  href="https://findcountriesapi.netlify.app/"
+                  href="https://countries-api-mu-two.vercel.app/"
                   target="_blank"
                   className="underline tracking-wide underline-offset-4"
                 >
@@ -108,7 +108,7 @@ function Portfolio() {
             </p>
             <div className="flex flex-row justify-between lg:hidden text-textColor text-base font-semibold px-8 py-2 ">
               <a
-                href="https://findcountriesapi.netlify.app/"
+                href="https://countries-api-mu-two.vercel.app/"
                 target="_blank"
                 className="underline tracking-wide underline-offset-4"
               >
